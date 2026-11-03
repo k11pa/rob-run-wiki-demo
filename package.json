@@ -1,0 +1,13 @@
+{
+  "name": "rob-run-wiki",
+  "version": "0.1.0-demo",
+  "private": true,
+  "description": "ROB RUN item wiki (demo): sections and item pages built from the robrun_wiki database",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build:data": "node scripts/build-data.js ../rob-run-atlas"
+  }
+}
